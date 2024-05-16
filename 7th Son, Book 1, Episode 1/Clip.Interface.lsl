@@ -1,3 +1,6 @@
+string dataFile = "Clip.Data.txt";
+string configFile = "Clip.Configuration.txt";
+
 integer clip;
 integer channel;
 integer listener;
@@ -23,7 +26,7 @@ integer AUDIO_RESUME = 10004;
 integer AUDIO_PRELOAD = 10005;
 integer AUDIO_PROGRESS = 10006;
 
-vector textColor =  <.75, .75, 1>;//<.5,.5,1.0>;
+vector textColor =  <.75, .75, 1>;
 
 init()
 {
@@ -44,7 +47,7 @@ init()
     
     // find out how many lines are in the data notecard
     // (Each line is an asset UUID for a sound clip)
-    clipCountQueryId = llGetNumberOfNotecardLines("Data");
+    clipCountQueryId = llGetNumberOfNotecardLines(dataFile);
 }
 showProgress()
 {
@@ -200,7 +203,7 @@ default
             clipCount = (integer)data;
             
             // start reading configuration notecard
-            configQueryId = llGetNotecardLine("Config", configLine++);
+            configQueryId = llGetNotecardLine(configFile, configLine++);
             
             // Stop doing anything else
             return;
@@ -242,7 +245,7 @@ default
             }
             
             // read next line
-            configQueryId = llGetNotecardLine("Config", configLine++);
+            configQueryId = llGetNotecardLine(configFile, configLine++);
             
             return;
         }

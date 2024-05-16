@@ -1,3 +1,6 @@
+string dataFile = "Clip.Data.txt";
+string configFile = "Clip.Configuration.txt";
+
 integer AUDIO_STOP = 10001;
 integer AUDIO_PLAY = 10002;
 integer AUDIO_PAUSE = 10003;
@@ -116,22 +119,30 @@ default
         }
         
         // read next assett UUID
-        queryId = llGetNotecardLine("Data", clip++);
+        queryId = llGetNotecardLine(dataFile, clip++);
         
     }
     dataserver(key queryid, string data)
     {
+        // don't do anything if not reading assett UUID in data notecard
         if(queryid != queryId) return;
+        
+        // don't do anything if not currently playing audio
         if(mode != AUDIO_PLAY) return;
+        
+        // if ran out of asset UUID's, stop playing
         if(data == EOF)
         {
             stop();
             return;
         }
+        
         // assign the data
         soundId = (key)data;
         
         // notify prim scripts to preload an audio clip while next line is read
         llMessageLinked(LINK_THIS, AUDIO_PRELOAD, (string)clip, soundId);
+        
+        // next time timer event occurs, the preloaded audio will be played.
     }
 }

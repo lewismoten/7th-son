@@ -1,3 +1,6 @@
+string dataFile = "Clip.Data.txt";
+string configFile = "Clip.Configuration.txt";
+
 integer AUDIO_STOP = 10001;
 integer AUDIO_PLAY = 10002;
 integer AUDIO_PAUSE = 10003;
@@ -13,7 +16,7 @@ default
         {
             llPreloadSound(id);
             // load up next sound too.
-            queryId = llGetNotecardLine("Data", (integer)message);
+            queryId = llGetNotecardLine(dataFile, (integer)message);
         }
     }
     dataserver(key queryid, string data)

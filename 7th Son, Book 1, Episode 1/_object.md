@@ -2,19 +2,19 @@
 
 | Setting | Value | | |
 | --- | --- | --- | --- |
-| Name | 7th Son, Book 1, Episode 1 v1.1 |
+| Name | 7th Son, Book 1, Episode 1 v1.2 |
 | Description | A free audio podcast novel |
 | Creator | Dedric Mauriac |
 | Click to | Touch |
 | For Sale | Yes | L$ | 0 |
 | Show in search | Yes |
-| Created | Thu Jul 05 16:08:55 2007 |
+| Created | Thu Jul 05 17:15:44 2007 |
 
 ## Permissions
 | Who | Move | Copy | Transfer |
 | --- | --- | --- | --- |
 | Anyone | No | Yes |
-| Next Owner | No | Yes | Yes |
+| Next Owner | Yes | Yes | Yes |
 
 # Object
 
@@ -41,8 +41,8 @@
 | Name | Type | Description | Modify | Copy | Transfer |
 | --- | --- | --- | --- | --- | --- |
 | [About 7th Son](About%207th%20Son.txt) | Notecard | 2006-11-26 00:17:08 note card | Yes |  Yes | Yes |
-| [Config](Config.txt) | Notecard | 2006-11-26 00:17:08 note card | No |  Yes | Yes |
-| [Data](Data.txt) | Notecard | 2006-11-26 00:17:08 note card | No |  Yes | Yes |
-| [Interface](Interface.lsl) | Script | 2006-12-09 09:24:08 lsl2 script | No |  Yes | Yes |
-| [Loader](Loader.lsl) | Script | 2006-12-09 14:51:39 lsl2 script | No |  Yes | Yes |
-| [Player.lsl](Player.lsl) | Script | 2006-12-09 14:34:24 lsl2 script | No |  Yes | Yes |
+| [Clip.Configuration.txt](Clip.Configuration.txt) | Notecard | 2006-11-26 00:17:08 note card | Yes |  Yes | Yes |
+| [Clip.Data.txt](Clip.Data.txt) | Notecard | 2006-11-26 00:17:08 note card | Yes |  Yes | Yes |
+| [Clip.Interface.lsl](Clip.Interface.lsl) | Script | 2006-12-09 09:24:08 lsl2 script | Yes |  Yes | Yes |
+| [Clip.Loader.lsl](Clip.Loader.lsl) | Script | 2006-12-09 14:51:39 lsl2 script | Yes |  Yes | Yes |
+| [Clip.Player.lsl](Clip.Player.lsl) | Script | 2006-12-09 14:34:24 lsl2 script | Yes |  Yes | Yes |
