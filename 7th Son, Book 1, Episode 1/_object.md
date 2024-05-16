@@ -2,13 +2,13 @@
 
 | Setting | Value | | |
 | --- | --- | --- | --- |
-| Name | 7th Son, Book 1, Episode 1 |
+| Name | 7th Son, Book 1, Episode 1 v1.1 |
 | Description | A free audio podcast novel |
 | Creator | Dedric Mauriac |
 | Click to | Touch |
 | For Sale | Yes | L$ | 0 |
 | Show in search | Yes |
-| Created | Sat Dec 09 06:40:44 2006 |
+| Created | Thu Jul 05 16:08:55 2007 |
 
 ## Permissions
 | Who | Move | Copy | Transfer |
