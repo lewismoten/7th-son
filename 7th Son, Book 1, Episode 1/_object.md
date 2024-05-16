@@ -2,13 +2,13 @@
 
 | Setting | Value | | |
 | --- | --- | --- | --- |
-| Name | 7th Son, Book 1, Episode 1 v1.2 |
+| Name | 7th Son, Book 1, Episode 1 v1.3 |
 | Description | A free audio podcast novel |
 | Creator | Dedric Mauriac |
 | Click to | Touch |
 | For Sale | Yes | L$ | 0 |
 | Show in search | Yes |
-| Created | Thu Jul 05 17:15:44 2007 |
+| Created | Sun Jan 15 09:11:06 2012 |
 
 ## Permissions
 | Who | Move | Copy | Transfer |
@@ -21,7 +21,7 @@
 | Setting |  |  |  | | | |
 | --- | --- | --- | --- | --- | --- | --- |
 | Size | X | 0.159 | Y | 0.144 | Z | 0.010 |
-| Rotation | X | 0.00 | Y | 0.00 | Z | 0.00 |
+| Rotation | X | 90.00 | Y | 315.00 | Z | 0.00 |
 | Type | Box |
 | Path Cut  | Begin | 0.00 | End | 0.00 |
 | Hollow  | 0.0 |
@@ -43,6 +43,6 @@
 | [About 7th Son](About%207th%20Son.txt) | Notecard | 2006-11-26 00:17:08 note card | Yes |  Yes | Yes |
 | [Clip.Configuration.txt](Clip.Configuration.txt) | Notecard | 2006-11-26 00:17:08 note card | Yes |  Yes | Yes |
 | [Clip.Data.txt](Clip.Data.txt) | Notecard | 2006-11-26 00:17:08 note card | Yes |  Yes | Yes |
-| [Clip.Interface.lsl](Clip.Interface.lsl) | Script | 2006-12-09 09:24:08 lsl2 script | Yes |  Yes | Yes |
-| [Clip.Loader.lsl](Clip.Loader.lsl) | Script | 2006-12-09 14:51:39 lsl2 script | Yes |  Yes | Yes |
-| [Clip.Player.lsl](Clip.Player.lsl) | Script | 2006-12-09 14:34:24 lsl2 script | Yes |  Yes | Yes |
+| [Clip.Interface.lsl](Clip.Interface.lsl) | Script (Mono) | 2006-12-09 09:24:08 lsl2 script | Yes |  Yes | Yes |
+| [Clip.Loader.lsl](Clip.Loader.lsl) | Script (Mono) | 2006-12-09 14:51:39 lsl2 script | Yes |  Yes | Yes |
+| [Clip.Player.lsl](Clip.Player.lsl) | Script (Mono) | 2006-12-09 14:34:24 lsl2 script | Yes |  Yes | Yes |

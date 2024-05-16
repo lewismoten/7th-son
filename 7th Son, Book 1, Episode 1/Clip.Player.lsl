@@ -133,7 +133,8 @@ default
         // if ran out of asset UUID's, stop playing
         if(data == EOF)
         {
-            stop();
+            soundId = NULL_KEY;
+            clip = 0;
             return;
         }
         
