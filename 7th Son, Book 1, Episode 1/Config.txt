@@ -1,0 +1,4 @@
+about=About 7th Son
+url=http://7thSonTrilogy.com
+name=7th Son, Book 1, Episode 1
+description=A free audio podcast novel
