@@ -25,7 +25,7 @@
 | Type | Box |
 | Path Cut  | Begin | 0.00 | End | 0.00 |
 | Hollow  | 0.0 |
-| Hollow Shampe  | Default |
+| Hollow Shape  | Default |
 | Twist  | Begin | 0 | End | 0 |
 | Taper  | X | 0.00 | Y | 0.00 |
 | Top Shear  | X | 0.00 | Y | 0.00 |
