@@ -14,7 +14,7 @@ The CD itself would have floating text showing how far into the podcast you were
 
 ![Clip Interface](./docs/Playing%20CD%20Progress.png)
 
-The scripts were designed in a way to be generic. I wanted to be prepared for additional missions related to bringing long clips of audio into Second Life. After uploading all of your audio clips, you just past the asset UUID's into a [Clip.Data.txt](./7th%20Son,%20Book%201,%20Episode%201%20v1.2/Clip.Data.txt.md) note card. In [Clip.Configuration.txt](./7th%20Son,%20Book%201,%20Episode%201%20v1.2/Clip.Configuration.txt.md) notecard you could change the name, url, description, and `About` note card name. Anyone who had the Album could see the code and create their own podcasts.
+The scripts were designed in a way to be generic. I wanted to be prepared for additional missions related to bringing long clips of audio into Second Life. After uploading all of your audio clips, you just pasted the asset UUID's into a [Clip.Data.txt](./7th%20Son,%20Book%201,%20Episode%201%20v1.2/Clip.Data.txt.md) note card. In [Clip.Configuration.txt](./7th%20Son,%20Book%201,%20Episode%201%20v1.2/Clip.Configuration.txt.md) notecard you could change the name, url, description, and `About` note card name. Anyone who had the Album could see the code and create their own podcasts.
 
 ## Splitting Sound Clips
 
