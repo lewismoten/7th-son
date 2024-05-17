@@ -16,7 +16,9 @@ The CD itself would have floating text showing how far into the podcast you were
 
 The scripts were designed in a way to be generic. I wanted to be prepared for additional missions related to bringing long clips of audio into Second Life. After uploading all of your audio clips, you just pasted the asset UUID's into a [Clip.Data.txt](./7th%20Son,%20Book%201,%20Episode%201%20v1.2/Clip.Data.txt.md) note card. In [Clip.Configuration.txt](./7th%20Son,%20Book%201,%20Episode%201%20v1.2/Clip.Configuration.txt.md) notecard you could change the name, url, description, and `About` note card name. Anyone who had the Album could see the code and create their own podcasts.
 
-## Splitting Sound Clips
+## Sound Clips
+
+The 10 second OGG sound clips are fairly large at 882 KB each. Rather than include them in this repository, you can use the asset UUID list provided to acquire them. There isn't anything special about the files themselves except that at the time they had to be no more than 10 seconds, mono, and PCM Wave Audio format at 44.1 kHz. The script requires the files to be exactly 10 seconds. It appears that the Second Life viewer now supports 30 second [sound clips](https://wiki.secondlife.com/wiki/Sound_Clips). If you want a 66% savings in cost, you'll need to modify the scripts to handle 30 second clips.
 
 I believe I used Audacity to split the file into 262 individual clips at 10 seconds each to be uploaded for 10 L$ each. In December 2006 the Linden dollar to US dollar rate would have been around 250 Linden dollars per 1 US dollar. With 262 clips, it was 2,620 L$ (~$10.48 US) for a 44 minute podcast.
 
